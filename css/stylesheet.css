@@ -1,0 +1,542 @@
+
+/* 
+Hi Saul! I wasn't able to make my font "Wanderlust Boho" works so I had to replace it with a google font 
+(not as pretty, but it is what it is). Also, I wasn't able to add white space between the pictures for the 
+recipe search page, and I only had time to do half of the number of recipes I was originally planning on 
+doing (18 was just to ambitious). Other than that...I did it!
+I learned SO MUCH this semester, thanks for everything! 
+*/
+
+
+/* GENERAL */
+
+body { 
+	line-height: 1.5;
+	margin: 0px 100px 0px 100px;
+	}
+
+p { 
+	font-family: 'Arial', 'Helvetica', sans-serif;
+	font-size: 110%;
+	color: black;
+	font-weight: normal;
+	}
+
+h1 {
+	font-family: 'Arial', 'Helvetica', sans-serif;
+	font-size: 160%;
+	text-transform: uppercase;
+	color: black;
+	font-weight: normal;
+	margin-bottom: 0px
+	}
+
+h2 {
+	font-family: 'Arial', 'Helvetica', sans-serif;
+	font-size: 100%;
+	color: black;
+	font-weight: normal;
+	font-style: italic;
+	margin-top: 0px;
+	}
+
+h3 {
+    font-family: 'Leckerli One', 'Brush Script MT', script;
+	font-size: 150%;
+	color: black;
+	font-weight: normal;
+	}
+
+h4 {
+	font-family: 'Arial', 'Helvetica', sans-serif;
+	font-size: 100%;
+	text-transform: uppercase;
+	color: black;
+	font-weight: normal;
+	margin-bottom: -10px; 
+	text-align: center;
+	}
+
+h5 {
+    font-family: 'Leckerli One', 'Brush Script MT', script;
+	font-size: 180%;
+	color: #b81252;
+	font-weight: normal;
+	margin-bottom: 0;
+	}
+
+ul {
+	list-style-type: none;
+	line-height: 2;
+	padding-left: 0;
+	}
+
+a:link { 
+	font-family: 'Arial', 'Helvetica', sans-serif;
+	font-weight: 110%; 
+	font-weight: black;
+	text-decoration: none; 
+	color: black;
+	}
+
+a:hover, a:focus, a:active, a:visited { 
+	text-decoration: underline; 
+	color: #b81252;
+	}
+
+a:visited { 
+	color: black;
+	}	
+
+div#navbar { 
+	font-family: 'Helvetica', sans-serif;
+	height: 300px; 
+	width: 100%; 
+	padding-top: 0px;
+	list-style: none;
+	text-align: center;
+	color: black;
+	} 
+
+div#navbar ul { 
+    display: inline-block;
+    padding: 120px 20px 0px 0px;
+	} 
+
+div#navbar li { 
+	display: inline; 
+	padding: 35px 35px 35px 35px;
+	text-transform: uppercase;
+	} 
+
+div#content figure { 
+	margin: 50px 0px 0px 0px;
+	clear: left;
+	}
+
+div#content a { 
+	margin: 700px 0px 0px 0px;
+	position: absolute;
+	float: left;
+	}
+
+/* INDEX PAGE (HOMEPAGE) */
+
+div#vanilla h4 { 
+	padding-bottom: 10px;
+	}
+
+div#vanilla figure { 
+	position: relative;
+	float: left;
+	margin-left: 0;
+	}
+
+div#vanilla p { 
+	position: absolute;
+	float: left;
+	text-align: left;
+	top: 1742px;
+	line-height: 1.5
+	}
+
+div#vanilla a { 
+	position: absolute;
+	float: left;
+	text-align: left;
+	top: 1804px;
+	}
+
+div#gingerbread figure { 
+	position: relative;
+	float: right;
+	text-align: right;
+	margin-right: 0;
+	padding-right: 0;
+	}
+
+div#gingerbread p { 
+	position: relative;
+	float: right;
+	top: -20px;
+	padding-right: 30px;
+	}
+
+div#gingerbread a { 
+	position: relative;
+	float: right;
+	top: 40px;
+	margin-right: -105px;
+	padding-right: 0px;
+	}
+
+/*  RECIPE SEARCH PAGE (RECIPE INDEX) */
+
+/*  Bread + Pastries */
+
+.apple-danish {
+	position: relative; 
+	}
+
+.apple-danish h3 { 
+   position: absolute; 
+   top: 280px; 
+   left: 0; 
+   width: 100%;
+	}
+
+.apple-danish h3 span { 
+	width: 100%; 
+	opacity: 0.75;
+    font-family: 'Leckerli One', 'Brush Script MT', script;
+	font-size: 125%;
+	color: black;
+	font-weight: normal;
+    letter-spacing: 1px;  
+    background-color: white;
+    opacity: 50%;
+    padding: 25px 176px 25px 15px;
+	}
+
+.banana-bread {
+	position: relative;
+   	width: 100%;
+	}
+
+.banana-bread h3 { 
+   position: absolute; 
+   top: 280px; 
+   left: 370px; 
+   width: 100%;
+	}
+
+.banana-bread h3 span { 
+	width: 100%; 
+	opacity: 0.75;
+ 	font-family: 'Leckerli One', 'Brush Script MT', script;
+	font-size: 125%;
+	color: black;
+	font-weight: normal;
+    letter-spacing: 1px;  
+    background-color: white;
+    opacity: 50%;
+    padding: 25px 175px 25px 15px;
+	}
+
+.scones {
+	position: relative; 
+   	width: 100%;
+	}
+
+.scones h3 { 
+   position: absolute; 
+   top: 280px; 
+   left: 740px; 
+   width: 100%;
+	}
+
+.scones h3 span { 
+	width: 100%; 
+	opacity: 0.75;
+    font-family: 'Leckerli One', 'Brush Script MT', script;
+	font-size: 125%;
+	color: black;
+	font-weight: normal;
+    letter-spacing: 1px;  
+    background-color: white;
+    opacity: 50%;
+    padding: 25px 90px 25px 15px;
+	}
+
+div#bread-pastries figure {
+	position: absolute;
+	margin:auto;
+	float: left;
+	top: 800px;
+	padding-left: 500px;
+	}
+
+/*  Cakes */
+
+div#cakes {
+	position: relative;
+	top: 200px;
+	}
+
+div#cakes h1 {
+   position: absolute; 
+   float: left;
+   top: 285px;
+   margin-left: 0;
+	}
+
+.blueberry-cheesecake h3 { 
+   position: absolute; 
+   top: 650px; 
+   left: 0; 
+   width: 100%;
+	}
+
+.blueberry-cheesecake h3 span { 
+	width: 100%; 
+	opacity: 0.75;
+    font-family: 'Leckerli One', 'Brush Script MT', script;
+	font-size: 125%;
+	color: black;
+	font-weight: normal;
+    letter-spacing: 1px;  
+    background-color: white;
+    opacity: 50%;
+    padding: 25px 95px 25px 15px;
+	}
+
+.chocolate-cake {
+	position: relative;
+   	width: 100%;
+	}
+
+.chocolate-cake h3 { 
+   position: absolute; 
+   top: 650px; 
+   left: 370px; 
+   width: 100%;
+	}
+
+.chocolate-cake h3 span { 
+	width: 100%; 
+	opacity: 0.75;
+    font-family: 'Leckerli One', 'Brush Script MT', script;
+	font-size: 125%;
+	color: black;
+	font-weight: normal;
+    letter-spacing: 1px;  
+    background-color: white;
+    opacity: 50%;
+    padding: 25px 67px 25px 15px;
+	}
+
+.carrot-cake {
+	position: relative; 
+   	width: 100%;
+	}
+
+.carrot-cake h3 { 
+   position: absolute; 
+   top: 650px; 
+   left: 740px; 
+   width: 100%;
+	}
+
+.carrot-cake h3 span { 
+	width: 100%; 
+	opacity: 0.75;
+    font-family: 'Leckerli One', 'Brush Script MT', script;
+	font-size: 125%;
+	color: black;
+	font-weight: normal;
+    letter-spacing: 1px;  
+    background-color: white;
+    opacity: 50%;
+    padding: 25px 210px 25px 15px;
+	}
+
+div#cakes figure {
+	position: absolute;
+	margin:auto;
+	float: left;
+	top: 800px;
+	padding-left: 500px;
+	}
+
+/*  Cookies */
+
+div#cookies {
+	position: relative;
+	top: 400px;
+	}
+
+div#cookies h1 {
+   position: absolute; 
+   float: left;
+   top: 655px;
+   margin-left: 0;
+	}
+
+.shortbread h3 { 
+   position: absolute; 
+   top: 1022px; 
+   left: 0px; 
+   width: 100%;
+	}
+
+.shortbread h3 span { 
+	width: 100%; 
+	opacity: 0.75;
+    font-family: 'Leckerli One', 'Brush Script MT', script;
+	font-size: 125%;
+	color: black;
+	font-weight: normal;
+    letter-spacing: 1px;  
+    background-color: white;
+    opacity: 50%;
+    padding: 25px 116px 25px 15px;
+	}
+
+.gingerbread-cookies{
+	position: relative;
+   	width: 100%;
+	}
+
+.gingerbread-cookies h3 { 
+   position: absolute; 
+   top: 1022px; 
+   left: 370px; 
+   width: 100%;
+	}
+
+.gingerbread-cookies h3 span { 
+	width: 100%; 
+	opacity: 0.75;
+    font-family: 'Leckerli One', 'Brush Script MT', script;
+	font-size: 125%;
+	color: black;
+	font-weight: normal;
+    letter-spacing: 1px;  
+    background-color: white;
+    opacity: 50%;
+    padding: 25px 115px 25px 15px;
+	}
+
+.chocolate-chips {
+	position: relative; 
+   	width: 100%;
+	}
+
+.chocolate-chips h3 { 
+   position: absolute; 
+   top: 1022px; 
+   left: 740px; 
+   width: 100%;
+	}
+
+.chocolate-chips h3 span { 
+	width: 100%; 
+	opacity: 0.75;
+    font-family: 'Leckerli One', 'Brush Script MT', script;
+	font-size: 125%;
+	color: black;
+	font-weight: normal;
+    letter-spacing: 1px;  
+    background-color: white;
+    opacity: 50%;
+    padding: 25px 75px 25px 15px;
+	}
+
+div#cookies figure {
+	position: absolute;
+	margin:auto;
+	float: left;
+	top: 1175px;
+	padding-left: 500px;
+	}
+
+/* RECIPE PAGE */
+
+/* Icons */
+
+div#icons {
+	margin-top: 2em;
+	margin-bottom: 2em;
+	height: 180px;
+	}
+
+div#icon_set {
+	width: 60% ;
+	margin: 0 auto;
+	}
+
+div#icon_wrapper {
+	width: 33% ;
+	float: left;
+	text-align: center;
+	}
+
+/*  Ingredients + Instructions */
+
+figure.cleared {
+	clear: both;
+	}
+
+div#ingredients {
+	position: absolute;
+	float: left;
+	padding: 10px 0 0 75px;
+	margin-left: 0px;
+	}
+
+div#ingredients h4 {
+	float: left;
+	margin-left: 0;
+	padding-left: 0;
+	}	
+
+div#ingredients h3 {
+	margin-bottom: 0;
+	}	
+
+div#instructions {
+	width: 50%;
+	padding-left: 500px;
+	}	
+
+div#share a {
+     padding: 0 0 0 550px;
+	}
+
+div#back-top a {
+     padding: 0 0 0 545px;
+	}
+
+/* CONTACT PAGE */
+
+div#text p {
+	line-height: .8;
+	}
+
+div#form {
+	float: right;
+	text-align: left;
+	margin-top: -130px;
+	margin-right: 550px;
+	width: 100px;
+	}
+
+label {
+	font-family: 'Arial', 'Helvetica', sans-serif;
+	font-weight: normal;
+	} 
+
+textarea {
+	font-family: 'Arial', 'Helvetica', sans-serif;
+	font-size: 90%;
+	height:200px;
+    width:500px;
+	}	
+
+input {
+		font-family: 'Arial', 'Helvetica', sans-serif;
+		font-size: 90%;
+		height:20px;
+    	width:400px;
+	}
+
+/* Footer */
+
+footer { 
+	position: absolute;
+	display: block;	
+	bottom: -1900px;
+	}
+
+
+
